@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Backend para la aplicacion de la pagina web de una tienda, donde almacena los productos, conexion a BD mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grupo-8-mintic-p76/Backend.git"
+  },
+  "keywords": [],
+  "author": "Juan Camilo Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grupo-8-mintic-p76/Backend/issues"
+  },
+  "homepage": "https://github.com/Grupo-8-mintic-p76/Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "nodemon": "^2.0.13"
+  }
+}
